@@ -1,0 +1,28 @@
+create a milston paper for profesr:
+
+for making intrest of team:
+finger detection wrongly... (humma isse guestures btai joo appas ma match naa ho... ( 1: vectory 2:first and last finger) )
+
+machine learning => 
+linear regession...
+
+
+website:
+can download the csv and pdf form of data (breaks and distance cover)
+
+
+
+Q: Can you get the actual distance cover of the game ?
+Ans: No, Becosue we are doing our project in python and game is develop in java or any other
+     language which does't all us. beside that, it's not a window software, to make changes in code. 
+     it's window inter app game, if we make change in app we will change window security preduction
+     protocals due to whcih this will a chance for hackers to make changes in our window system and 
+     also some time may effect on window perfomace as well.
+     -> this is also possible that it only run on the window system taht we are using... 
+     -> may be need changes in each window security protection protocols on whcih you want to run this game.
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+{% extends 'polls/layout.html' %} {% block Content %}
+<div class="container">
+    <h2 class="alert alert-danger text-center">SCORE HISTORY</h2>
+
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Game No.</th>
+                    <th scope="col">PLAYER ID</th>
+                    <th scope="col">TIER ( RANK )</th>
+                    <th scope="col">NUMBER OF BREAKS</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for data in player_data %}
+                <tr>
+                    <th scope="row">{{data.id}}</th>
+                    <th>18BCS0068</th>
+                    <!-- SEVER, BRONZE, GOLD, PLATINIUM, DIMAND, CROWN, ASS, ASS MASTER, ASS DOMINATOR, CONQUERER -->
+                    <th>SILVER</th>
+                    <th>{{data.Number_of_brakes}}</th>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock Content %}

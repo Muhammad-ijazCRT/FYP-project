@@ -1,0 +1,53 @@
+{% extends 'polls/layout.html' %} {% block Content %}
+
+<div class="container">
+    <div class="row mt-2">
+
+        <h1 class="text-center">Wawoo ! You Start The Game</h1>
+
+        <!-- your brakes: {{max}} your brakes: {{min}} your brakes: {{avg}} <br><br> -->
+
+    </div>
+    <div class="container mt-2">
+        <div class="row">
+            <h2>Your Last Match Score: {{last_match}} </h2>
+        </div>
+    </div>
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Min brakes</th>
+                    <th scope="col">Max brakes</th>
+                    <th scope="col">Avg brakes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>{{min}} </td>
+                    <td>{{max}}</td>
+                    <td>{{avg}}</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+<!-- <form action="{% url 'pred' %}">
+
+    {% csrf_token %} No of breaks: <br><br>
+    <input type="text" required name="breaks" value="{{mydata}}"> <br><br>
+
+    <button type="submit">Submit</button>
+
+    <br><br>
+
+</form> -->
+<!-- <a href="{% url 'pred' %}">Click Prediction...</a> -->
+<br><br> {% endblock Content %}
